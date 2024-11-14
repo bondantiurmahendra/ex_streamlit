@@ -15,10 +15,6 @@ This example shows a simple generation or Q&A use case without comprehensive pro
 # In non-Anaconda Python environments, you may also need to install dotenv
 # pip install python-dotenv
 
-# For reading credentials from the .env file
-import os
-from dotenv import load_dotenv
-
 import streamlit as st
 
 from ibm_watson_machine_learning.foundation_models import Model
